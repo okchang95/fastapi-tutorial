@@ -1,0 +1,12 @@
+src: src 혹은 app폴더.
+    routers: url경로에 대한 파일들을 모아노은 폴더
+        user_routers.py: /user 경로에 대한 라우터 파일
+        index.py: 모든 router를 모아놓은 파일
+        user.py: /user경로에 대한 함수(/user 경로로 요청이 들어오면 실행되는 함수)를 모아놓은 파일
+
+    services: 서비스를 모아노은 폴더. router를 통해 사용자에게 전달
+        user_services: 유저에 대한 서비스 함수들을 모아놓은 파일
+    main.py: fastapi를 실행시키는 메인 파일
+
+router -> 네트워크에서 데이터의 전달을 촉진하는 중계장치 ~ 길(url), 경로를 만들어주는..
+

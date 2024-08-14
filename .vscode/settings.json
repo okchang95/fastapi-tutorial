@@ -1,0 +1,9 @@
+//# settings.json
+{
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "python.formatting.blackArgs": ["--line-length", "80"], //# 최대 코드길이를 80으로 지정
+  "python.formatting.provider": "black", //# black으로 formatter 지정
+  "editor.formatOnSave": true // # 저장할 때마다 formatter 적용
+}
